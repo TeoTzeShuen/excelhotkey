@@ -1,0 +1,329 @@
+Excel
+Excel > About Microsoft Excel
+Excel > Preferences...  [0:,]
+Excel > Sign Out...
+Excel > Services
+Excel > Services > No Services Apply
+Excel > Services > Services Settings…
+Excel > Hide Excel  [0:H]
+Excel > Hide Others  [2:H]
+Excel > Show All
+Excel > Quit Excel  [0:Q]
+Excel > Quit and Keep Windows  [2:Q]
+File
+File > New  [0:N]
+File > New from Template...  [1:P]
+File > Open...  [0:O]
+File > Open Recent
+File > Open Recent > External03_Group09
+File > Open Recent > External02_Group09
+File > Open Recent > External01_Group09
+File > Open Recent > Data02_Group09
+File > Open Recent > Data01_Group09
+File > Open Recent > Revision - Seminar Question P7.6 Answers
+File > Open Recent > ACC2024 T1 AY2026_2027 S1 Class
+File > Open Recent > Labels_SecondRater_Group09
+File > Open Recent > Finalised Group Trade Tracking Sheet
+File > Open Recent > important-dates-october-2026
+File > Open Recent > More...  [1:O]
+File > Close  [0:W]
+File > Save  [0:S]
+File > Save As...  [1:S]
+File > Save as Template...
+File > Move...
+File > Rename...
+File > Reset Changes Pane
+File > Browse Version History
+File > Import
+File > Reduce File Size...
+File > Share
+File > Share > Share...
+File > Share > Send Workbook
+File > Share > Send PDF
+File > Always Open as Read-only
+File > Restrict Permissions
+File > Restrict Permissions > No Restrictions
+File > Restrict Permissions > Restricted Access...
+File > Passwords...
+File > Page Setup...
+File > Print Area
+File > Print Area > Set Print Area
+File > Print Area > Clear Print Area
+File > Print...  [0:P]
+File > Properties...
+Edit
+Edit > Can’t Undo  [0:Z]
+Edit > Repeat Row Height  [0:Y]
+Edit > Cut  [0:X]
+Edit > Copy  [0:C]
+Edit > Paste  [0:V]
+Edit > Paste Special...  [4:V]
+Edit > Paste and Match Formatting  [3:V]
+Edit > Fill
+Edit > Fill > Down
+Edit > Fill > Right
+Edit > Fill > Up
+Edit > Fill > Left
+Edit > Fill > Across Worksheets...
+Edit > Fill > Series...
+Edit > Fill > Justify
+Edit > Fill > Flash-fill
+Edit > Clear
+Edit > Clear > All
+Edit > Clear > Formats
+Edit > Clear > Contents
+Edit > Clear > Clear Comments and Notes
+Edit > Clear > Links
+Edit > Clear > Series
+Edit > Select All  [0:A]
+Edit > Delete...
+Edit > Sheet
+Edit > Sheet > Delete Sheet
+Edit > Sheet > Move or Copy Sheet...
+Edit > Find
+Edit > Find > Find...  [12:F]
+Edit > Find > Find Next  [0:G]
+Edit > Find > Find Previous  [1:G]
+Edit > Find > Replace...  [12:H]
+Edit > Find > Go to...  [12:G]
+Edit > Toggle Drawing  [4:Z]
+Edit > AutoFill
+Edit > AutoFill > Contact…
+Edit > AutoFill > Passwords…
+Edit > AutoFill > Credit Card…
+Edit > Start Dictation…  [8:🎤]
+Edit > Emoji & Symbols  [24:E]
+View
+View > Normal
+View > Page Layout
+View > Ribbon  [2:R]
+View > Formula Bar
+View > Message Bar
+View > Formula Builder
+View > Header and Footer...
+View > Ruler
+View > Custom Views...
+View > Zoom...
+View > Enter Full Screen  [24:F]
+Insert
+Insert > Cells...
+Insert > Rows
+Insert > Columns
+Insert > Sheet
+Insert > Sheet > Insert Sheet  [9:]
+Insert > Sheet > Chart Sheet
+Insert > Chart
+Insert > Chart > Column
+Insert > Chart > Bar
+Insert > Chart > Line
+Insert > Chart > Area
+Insert > Chart > Pie
+Insert > Chart > Treemap
+Insert > Chart > Sunburst
+Insert > Chart > Histogram
+Insert > Chart > Pareto
+Insert > Chart > Box and Whisker
+Insert > Chart > X Y (Scatter)
+Insert > Chart > Waterfall
+Insert > Chart > Funnel
+Insert > Chart > Stock
+Insert > Chart > Surface
+Insert > Chart > Radar
+Insert > Chart > Filled Map
+Insert > Chart > Manage Templates...
+Insert > Sparklines...
+Insert > Table
+Insert > Page Break
+Insert > Reset All Page Breaks
+Insert > Function...
+Insert > Name
+Insert > Name > Define Name
+Insert > Name > Paste...
+Insert > Name > Create...
+Insert > Name > Apply...
+Insert > Name > Name Manager
+Insert > New Comment
+Insert > Picture
+Insert > Picture > Place in Cell
+Insert > Picture > Place in Cell > Photo Browser…
+Insert > Picture > Place in Cell > Picture from File...
+Insert > Picture > Place in Cell > Stock Images...
+Insert > Picture > Place in Cell > Online Pictures...
+Insert > Picture > Place over Cells
+Insert > Picture > Place over Cells > Photo Browser…
+Insert > Picture > Place over Cells > Picture from File ...
+Insert > Picture > Place over Cells > Stock Images...
+Insert > Picture > Place over Cells > Online Pictures...
+Insert > Audio
+Insert > Audio > Audio Browser...
+Insert > Audio > Audio from File ...
+Insert > Film
+Insert > Film > Video Browser...
+Insert > Film > Video from File...
+Insert > Symbol...
+Insert > Shape
+Insert > Shape > Rectangle
+Insert > Shape > Rounded Rectangle
+Insert > Shape > Triangle
+Insert > Shape > Oval
+Insert > Shape > Line
+Insert > Icons...
+Insert > 3D Models
+Insert > 3D Models > Insert 3D Model From
+Insert > 3D Models > Stock 3D Models...
+Insert > 3D Models > This Device...
+Insert > Text Box
+Insert > SmartArt
+Insert > SmartArt > List
+Insert > SmartArt > Process
+Insert > SmartArt > Cycle
+Insert > SmartArt > Hierarchy
+Insert > SmartArt > Relationship
+Insert > SmartArt > Matrix
+Insert > SmartArt > Pyramid
+Insert > SmartArt > Picture
+Insert > SmartArt > Timeline
+Insert > SmartArt > Meet The Team
+Insert > SmartArt > Text Card
+Insert > WordArt
+Insert > Object...
+Insert > Link...  [0:K]
+Insert > Checkbox
+Format
+Format > Cells...  [0:1]
+Format > Row
+Format > Row > Height...
+Format > Row > Auto-fit
+Format > Row > Hide
+Format > Row > Unhide
+Format > Column
+Format > Column > Width...
+Format > Column > Auto-fit Selection
+Format > Column > Hide
+Format > Column > Unhide
+Format > Column > Standard Width...
+Format > Sheet
+Format > Sheet > Rename
+Format > Sheet > Hide
+Format > Sheet > Unhide...
+Format > Sheet > Background...
+Format > Conditional Formatting...
+Format > Style...
+Format > Selection Pane...  [2:U]
+Tools
+Tools > Spelling...
+Tools > Thesaurus...  [6:R]
+Tools > Language...
+Tools > AutoCorrect Options...
+Tools > Error-checking...
+Tools > Translate...  [6:T]
+Tools > Check Accessibility
+Tools > Show Changes
+Tools > Track Changes
+Tools > Track Changes > Highlight Changes...
+Tools > Track Changes > Accept or Reject Changes...
+Tools > Merge Workbooks...
+Tools > Protection
+Tools > Protection > Protect Sheet...
+Tools > Protection > Protect Workbook...
+Tools > Goal Seek...
+Tools > Scenarios...
+Tools > Auditing
+Tools > Auditing > Trace Precedents
+Tools > Auditing > Trace Dependents
+Tools > Auditing > Trace Error
+Tools > Auditing > Remove All Arrows
+Tools > Data Analysis...
+Tools > Solver...
+Tools > Macro
+Tools > Macro > Macros...
+Tools > Macro > Record New Macro...
+Tools > Macro > Visual Basic Editor
+Tools > Excel Add-ins...
+Tools > Customise Keyboard...
+Data
+Data > Sort...  [1:R]
+Data > Auto-filter
+Data > Clear Filters
+Data > Advanced Filter...
+Data > Subtotals...
+Data > Validation...
+Data > Table...
+Data > Text to Columns...
+Data > Consolidate...
+Data > Group and Outline
+Data > Group and Outline > Hide Detail
+Data > Group and Outline > Show Detail
+Data > Group and Outline > Group...
+Data > Group and Outline > Ungroup...
+Data > Group and Outline > Auto-outline
+Data > Group and Outline > Clear Outline
+Data > Group and Outline > Settings...
+Data > Edit Links...
+Data > Summarise with Pivot Table
+Data > Chart Source Data...
+Data > Chart Add Data...
+Data > Table Tools
+Data > Table Tools > Remove Duplicates
+Data > Table Tools > Summarise with Pivot Table
+Data > Table Tools > Rename
+Data > Table Tools > Convert to Range
+Data > Get Data (Power Query)
+Data > Get Data (Power Query) > Get Data (Power Query)...
+Data > Get Data (Power Query) > Launch Power Query Editor...
+Data > Get Data (Power Query) > Data Source Settings...
+Data > Get Data (Power Query) > From Database (Microsoft Query)
+Data > Get Data (Power Query) > From HTML
+Data > Get Data (Power Query) > From Text (Legacy)
+Data > Get Data (Power Query) > From SQL Server ODBC
+Data > Get Data (Power Query) > Run Web Query...
+Data > Get Data (Power Query) > Data Range Properties
+Data > Get Data (Power Query) > Parameters...
+Data > Refresh
+Window
+Window > Minimise  [0:M]
+Window > Zoom
+Window > New Window
+Window > Arrange...
+Window > Hide
+Window > Unhide...
+Window > Split
+Window > Freeze Panes
+Window > Bring All to Front
+Window > Minimise All  [2:M]
+Window > Zoom All
+Window > Fill  [28:F]
+Window > Centre  [28:C]
+Window > Move & Resize
+Window > Move & Resize > Halves
+Window > Move & Resize > Left
+Window > Move & Resize > Right
+Window > Move & Resize > Top
+Window > Move & Resize > Bottom
+Window > Move & Resize > Quarters
+Window > Move & Resize > Top Left
+Window > Move & Resize > Top Right
+Window > Move & Resize > Bottom Left
+Window > Move & Resize > Bottom Right
+Window > Move & Resize > Arrange
+Window > Move & Resize > Left & Right
+Window > Move & Resize > Left & Quarters
+Window > Move & Resize > Right & Left
+Window > Move & Resize > Right & Quarters
+Window > Move & Resize > Top & Bottom
+Window > Move & Resize > Top & Quarters
+Window > Move & Resize > Bottom & Top
+Window > Move & Resize > Bottom & Quarters
+Window > Move & Resize > Quarters
+Window > Move & Resize > Return to Previous Size  [28:R]
+Window > Full-Screen Tile
+Window > Full-Screen Tile > Left of Screen
+Window > Full-Screen Tile > Right of Screen
+Window > Arrange in Front
+Window > Remove Window from Set
+Window > Book1
+Help
+Help > Excel Help
+Help > Feedback
+Help > Clear Application Data
+Help > Check for Updates

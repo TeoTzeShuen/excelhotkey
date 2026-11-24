@@ -1,0 +1,199 @@
+===== TAB: Home =====
+menu button Paste
+button Cut
+menu button Copy, Value: 0
+toggle button Format, Value: 0
+combo box (settable) Font:, Value: Aptos Narrow (Body)
+combo box (settable) Font Size:, Value: 12
+button Increase Font Size
+button Decrease Font Size
+toggle button Bold, Value: 0
+toggle button Italic, Value: 0
+menu button Underline, Value: 0
+menu button Borders, Value: 0
+menu button Shading, Value: RGB(255, 255, 0)
+menu button Font Colour, Value: RGB(255, 0, 0)
+toggle button Align to Top, Value: 0
+toggle button Align to Middle, Value: 0
+toggle button Align to Bottom, Value: 1
+menu button Wrap Text, Value: 0
+toggle button Align to Left, Value: 0
+toggle button Centre, Value: 0
+toggle button Align to Right, Value: 0
+menu button Merge & Centre, Value: 0
+button Decrease Indent
+button Increase Indent
+menu button Orientation, Value: 0
+combo box (settable) Number Format, Value: General
+menu button Accounting Number Format, Value: 0
+button Percentage Style
+button Comma Style
+button Increase Decimal
+button Decrease Decimal
+menu button Conditional Formatting, Value: 0
+menu button Format as Table, Value: 0
+menu button Cell Styles, Value: 0
+menu button Insert, Value: 0
+menu button Delete, Value: 0
+menu button Format, Value: 0
+menu button Editing, Value: 0
+menu button (disabled) Sensitivity, Value: 0
+button Add‑ins
+button Claude
+button Create a PDF and Share link
+===== TAB: Insert =====
+button Pivot Table
+button Recommended Pivot Tables
+button Table
+menu button Forms, Value: 0
+menu button From Picture, Value: 0
+menu button Pictures, Value: 0
+menu button Shapes, Value: 0
+button Icons
+menu button 3D Models, Value: 0
+menu button SmartArt, Value: 0
+menu button Screenshot, Value: 0
+button Checkbox
+menu button Recommended Charts, Value: 0
+menu button Column, Value: 0
+menu button Line, Value: 0
+menu button Pie, Value: 0
+menu button Hierarchy, Value: 0
+menu button Statistical, Value: 0
+menu button X Y (Scatter), Value: 0
+menu button Waterfall, Value: 0
+menu button Combo, Value: 0
+menu button Maps, Value: 0
+button Pivot Chart
+menu button Sparklines, Value: 0
+button (disabled) Slicer
+button (disabled) Timeline
+button Link
+button New Comment
+toggle button Text Box, Value: 0
+button Header & Footer
+menu button WordArt, Value: 0
+button Object
+menu button Equation
+button (disabled) Symbol
+===== TAB: Page Layout =====
+menu button Themes, Value: 0
+menu button Colours, Value: 0
+menu button Fonts, Value: 0
+menu button Margins, Value: 0
+menu button Orientation, Value: 0
+menu button Size, Value: 0
+menu button Print Area, Value: 0
+menu button (disabled) Breaks, Value: 0
+button Background
+button Print Titles
+button Page Setup
+combo box (settable) Width:, Value: Automatic
+combo box (settable) Height:, Value: Automatic
+text Gridlines
+checkbox View, Value: 1
+checkbox Print, Value: 0
+text Headings
+checkbox View, Value: 1
+checkbox Print, Value: 0
+===== TAB: Formulas =====
+button Insert Function
+menu button Auto-sum, Value: 0
+menu button Recently Used, Value: 0
+menu button Financial, Value: 0
+menu button Logical, Value: 0
+menu button Text, Value: 0
+menu button Date & Time, Value: 0
+menu button Lookup & Reference, Value: 0
+menu button Maths & Trig, Value: 0
+menu button More Functions, Value: 0
+button Name Manager
+menu button Define Name, Value: 0
+menu button (disabled) Use in Formula, Value: 0
+button Create from Selection
+button Trace Precedents
+button Trace Dependents
+menu button Remove Arrows, Value: 0
+toggle button Show Formulas, Value: 0
+menu button Error-checking, Value: 0
+toggle button Watch Window, Value: 0
+menu button Calculation Options, Value: 0
+button Calculate Now
+button Calculate Sheet
+===== TAB: Data =====
+menu button Get Data (Power Query), Value: 0
+menu button From Picture, Value: 0
+menu button Refresh All, Value: 0
+button Queries & Connections
+button (disabled) Properties
+button (disabled) Workbook Links
+menu button show more items
+gallery Data Types
+button Stocks, Value: 0
+button Currencies, Value: 0
+button Geography, Value: 0
+button Sort A to Z
+button Sort Z to A
+button Sort
+toggle button Filter, Value: 0
+button (disabled) Clear
+button (disabled) Reapply
+button Advanced
+button Text to Columns
+button Analyse Data
+button Flash-fill
+button Remove Duplicates
+menu button Data Validation, Value: 0
+button Consolidate
+menu button What-if Analysis, Value: 0
+menu button Group, Value: 0
+menu button Ungroup, Value: 0
+button Subtotal
+button (disabled) Show Detail
+button (disabled) Hide Detail
+button Analysis Tools
+button Data Analysis
+button Solver
+===== TAB: Review =====
+button Spelling
+button (disabled) Thesaurus
+button Workbook Statistics
+menu button Check Accessibility, Value: 0
+button Translate
+toggle button (disabled) Show Changes, Value: 0
+button New Comment
+button (disabled) Delete
+button (disabled) Previous Comment
+button (disabled) Next Comment
+toggle button Show Comments, Value: 0
+menu button Notes, Value: 0
+button Protect Sheet
+toggle button Protect Workbook, Value: 0
+toggle button Always Open as Read-only, Value: 0
+menu button Restrict Permission, Value: 0
+menu button Hide Ink, Value: 0
+===== TAB: View =====
+combo box (disabled, settable) Switch Sheet View, Value: Default
+button (disabled) Keep
+button (disabled) Exit
+button (disabled) New
+button (disabled) Options
+toggle button Normal, Value: 1
+toggle button Page Break Preview, Value: 0
+toggle button Page Layout, Value: 0
+button Custom Views
+menu button Show, Value: 0
+combo box (settable) Zoom, Value: 100%
+button Zoom to 100%
+toggle button Zoom to Selection, Value: 0
+button New Window
+button Arrange All
+menu button Freeze Panes, Value: 0
+toggle button Split, Value: 0
+button Hide
+button (disabled) Unhide
+toggle button (disabled) View Side by Side, Value: 0
+toggle button (disabled) Synchronous Scrolling, Value: 0
+button (disabled) Reset Window Position
+menu button Switch Windows, Value: 0
+menu button Macros, Value: 0
