@@ -43,6 +43,8 @@ an entry (e.g. binding `HOI` needs `H` and `HO`).
    Only use shortcuts you are confident exist in current Mac Excel (Microsoft 365).
 2. `"menu": ["Format", "Row", "Auto-fit"]` — a Mac Excel menu bar path. Every title must match
    `reference/excel-menus.txt` exactly (character for character, including `...` and casing).
+   For an item Excel renames as it toggles, list both titles separated by `|`:
+   `["Window", "Freeze Panes|Unfreeze Panes"]`.
 3. `"applescript": "tell application \"Microsoft Excel\" to autofit rows of selection"` —
    a complete AppleScript using Excel's dictionary
    (`/Applications/Microsoft Excel.app/Contents/Resources/Excel.sdef`). Use for commands with no

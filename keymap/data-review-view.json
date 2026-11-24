@@ -1,0 +1,709 @@
+{
+  "groups": {
+    "A": "Data",
+    "AF": "Flash Fill",
+    "AG": "Group",
+    "AP": "Get Data",
+    "AR": "Refresh All",
+    "AS": "Sort",
+    "AU": "Ungroup",
+    "AV": "Data Validation",
+    "AW": "What-If Analysis",
+    "AY": "Reapply",
+    "F": "File",
+    "R": "Review",
+    "RA": "Accessibility",
+    "RH": "Comments",
+    "RP": "Protect",
+    "RT": "Notes",
+    "W": "View",
+    "WF": "Freeze Panes",
+    "WM": "Macros",
+    "WV": "Show"
+  },
+  "bindings": [
+    {
+      "keys": "ASA",
+      "label": "Sort A to Z",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to sort selection key1 active cell order1 sort ascending header header guess"
+      }
+    },
+    {
+      "keys": "ASD",
+      "label": "Sort Z to A",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to sort selection key1 active cell order1 sort descending header header guess"
+      }
+    },
+    {
+      "keys": "ASS",
+      "label": "Sort",
+      "action": {
+        "shortcut": "cmd+shift+r"
+      }
+    },
+    {
+      "keys": "AT",
+      "label": "Filter",
+      "action": {
+        "menu": [
+          "Data",
+          "Auto-filter"
+        ]
+      }
+    },
+    {
+      "keys": "AC",
+      "label": "Clear Filter",
+      "action": {
+        "menu": [
+          "Data",
+          "Clear Filters"
+        ]
+      }
+    },
+    {
+      "keys": "AY1",
+      "label": "Reapply Filter",
+      "action": {
+        "ribbon": {
+          "tab": "Data",
+          "control": "Reapply"
+        }
+      }
+    },
+    {
+      "keys": "AQ",
+      "label": "Advanced Filter",
+      "action": {
+        "menu": [
+          "Data",
+          "Advanced Filter..."
+        ]
+      }
+    },
+    {
+      "keys": "AE",
+      "label": "Text to Columns",
+      "action": {
+        "menu": [
+          "Data",
+          "Text to Columns..."
+        ]
+      }
+    },
+    {
+      "keys": "AFF",
+      "label": "Flash Fill",
+      "action": {
+        "menu": [
+          "Edit",
+          "Fill",
+          "Flash-fill"
+        ]
+      }
+    },
+    {
+      "keys": "AM",
+      "label": "Remove Duplicates",
+      "action": {
+        "ribbon": {
+          "tab": "Data",
+          "control": "Remove Duplicates"
+        }
+      }
+    },
+    {
+      "keys": "AVV",
+      "label": "Data Validation",
+      "action": {
+        "menu": [
+          "Data",
+          "Validation..."
+        ]
+      }
+    },
+    {
+      "keys": "AN",
+      "label": "Consolidate",
+      "action": {
+        "menu": [
+          "Data",
+          "Consolidate..."
+        ]
+      }
+    },
+    {
+      "keys": "AWS",
+      "label": "Scenario Manager",
+      "action": {
+        "menu": [
+          "Tools",
+          "Scenarios..."
+        ]
+      }
+    },
+    {
+      "keys": "AWG",
+      "label": "Goal Seek",
+      "action": {
+        "menu": [
+          "Tools",
+          "Goal Seek..."
+        ]
+      }
+    },
+    {
+      "keys": "AWT",
+      "label": "Data Table",
+      "action": {
+        "menu": [
+          "Data",
+          "Table..."
+        ]
+      }
+    },
+    {
+      "keys": "AGG",
+      "label": "Group",
+      "action": {
+        "menu": [
+          "Data",
+          "Group and Outline",
+          "Group..."
+        ]
+      }
+    },
+    {
+      "keys": "AGA",
+      "label": "Auto Outline",
+      "action": {
+        "menu": [
+          "Data",
+          "Group and Outline",
+          "Auto-outline"
+        ]
+      }
+    },
+    {
+      "keys": "AUU",
+      "label": "Ungroup",
+      "action": {
+        "menu": [
+          "Data",
+          "Group and Outline",
+          "Ungroup..."
+        ]
+      }
+    },
+    {
+      "keys": "AUC",
+      "label": "Clear Outline",
+      "action": {
+        "menu": [
+          "Data",
+          "Group and Outline",
+          "Clear Outline"
+        ]
+      }
+    },
+    {
+      "keys": "AB",
+      "label": "Subtotal",
+      "action": {
+        "menu": [
+          "Data",
+          "Subtotals..."
+        ]
+      }
+    },
+    {
+      "keys": "AJ",
+      "label": "Show Detail",
+      "action": {
+        "menu": [
+          "Data",
+          "Group and Outline",
+          "Show Detail"
+        ]
+      }
+    },
+    {
+      "keys": "AH",
+      "label": "Hide Detail",
+      "action": {
+        "menu": [
+          "Data",
+          "Group and Outline",
+          "Hide Detail"
+        ]
+      }
+    },
+    {
+      "keys": "ARA",
+      "label": "Refresh All",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to refresh all active workbook"
+      }
+    },
+    {
+      "keys": "ARR",
+      "label": "Refresh",
+      "action": {
+        "menu": [
+          "Data",
+          "Refresh"
+        ]
+      }
+    },
+    {
+      "keys": "AO",
+      "label": "Queries & Connections",
+      "action": {
+        "ribbon": {
+          "tab": "Data",
+          "control": "Queries & Connections"
+        }
+      }
+    },
+    {
+      "keys": "AK",
+      "label": "Edit Links",
+      "action": {
+        "menu": [
+          "Data",
+          "Edit Links..."
+        ]
+      }
+    },
+    {
+      "keys": "APN",
+      "label": "Get Data (Power Query)",
+      "action": {
+        "menu": [
+          "Data",
+          "Get Data (Power Query)",
+          "Get Data (Power Query)..."
+        ]
+      }
+    },
+    {
+      "keys": "RS",
+      "label": "Spelling",
+      "action": {
+        "menu": [
+          "Tools",
+          "Spelling..."
+        ]
+      }
+    },
+    {
+      "keys": "RE",
+      "label": "Thesaurus",
+      "action": {
+        "shortcut": "cmd+opt+ctrl+r"
+      }
+    },
+    {
+      "keys": "RL",
+      "label": "Translate",
+      "action": {
+        "shortcut": "cmd+opt+ctrl+t"
+      }
+    },
+    {
+      "keys": "RB",
+      "label": "Workbook Statistics",
+      "action": {
+        "ribbon": {
+          "tab": "Review",
+          "control": "Workbook Statistics"
+        }
+      }
+    },
+    {
+      "keys": "RAA",
+      "label": "Check Accessibility",
+      "action": {
+        "menu": [
+          "Tools",
+          "Check Accessibility"
+        ]
+      }
+    },
+    {
+      "keys": "RC",
+      "label": "New Comment",
+      "action": {
+        "menu": [
+          "Insert",
+          "New Comment"
+        ]
+      }
+    },
+    {
+      "keys": "RD",
+      "label": "Delete Comment",
+      "action": {
+        "ribbon": {
+          "tab": "Review",
+          "control": "Delete"
+        }
+      }
+    },
+    {
+      "keys": "RV",
+      "label": "Previous Comment",
+      "action": {
+        "ribbon": {
+          "tab": "Review",
+          "control": "Previous Comment"
+        }
+      }
+    },
+    {
+      "keys": "RN",
+      "label": "Next Comment",
+      "action": {
+        "ribbon": {
+          "tab": "Review",
+          "control": "Next Comment"
+        }
+      }
+    },
+    {
+      "keys": "RH1",
+      "label": "Show Comments",
+      "action": {
+        "ribbon": {
+          "tab": "Review",
+          "control": "Show Comments"
+        }
+      }
+    },
+    {
+      "keys": "RTN",
+      "label": "New Note",
+      "action": {
+        "shortcut": "shift+f2"
+      }
+    },
+    {
+      "keys": "RPS",
+      "label": "Protect Sheet",
+      "action": {
+        "menu": [
+          "Tools",
+          "Protection",
+          "Protect Sheet..."
+        ]
+      }
+    },
+    {
+      "keys": "RPW",
+      "label": "Protect Workbook",
+      "action": {
+        "menu": [
+          "Tools",
+          "Protection",
+          "Protect Workbook..."
+        ]
+      }
+    },
+    {
+      "keys": "RG",
+      "label": "Show Changes",
+      "action": {
+        "menu": [
+          "Tools",
+          "Show Changes"
+        ]
+      }
+    },
+    {
+      "keys": "WL",
+      "label": "Normal View",
+      "action": {
+        "menu": [
+          "View",
+          "Normal"
+        ]
+      }
+    },
+    {
+      "keys": "WI",
+      "label": "Page Break Preview",
+      "action": {
+        "ribbon": {
+          "tab": "View",
+          "control": "Page Break Preview"
+        }
+      }
+    },
+    {
+      "keys": "WP",
+      "label": "Page Layout View",
+      "action": {
+        "menu": [
+          "View",
+          "Page Layout"
+        ]
+      }
+    },
+    {
+      "keys": "WC",
+      "label": "Custom Views",
+      "action": {
+        "menu": [
+          "View",
+          "Custom Views..."
+        ]
+      }
+    },
+    {
+      "keys": "WVG",
+      "label": "Gridlines",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set display gridlines of active window to not (display gridlines of active window)"
+      }
+    },
+    {
+      "keys": "WVH",
+      "label": "Headings",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set display headings of active window to not (display headings of active window)"
+      }
+    },
+    {
+      "keys": "WVF",
+      "label": "Formula Bar",
+      "action": {
+        "menu": [
+          "View",
+          "Formula Bar"
+        ]
+      }
+    },
+    {
+      "keys": "WVR",
+      "label": "Ruler",
+      "action": {
+        "menu": [
+          "View",
+          "Ruler"
+        ]
+      }
+    },
+    {
+      "keys": "WQ",
+      "label": "Zoom",
+      "action": {
+        "menu": [
+          "View",
+          "Zoom..."
+        ]
+      }
+    },
+    {
+      "keys": "WJ",
+      "label": "Zoom to 100%",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set zoom of active window to 100"
+      }
+    },
+    {
+      "keys": "WG",
+      "label": "Zoom to Selection",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set zoom of active window to true"
+      }
+    },
+    {
+      "keys": "WN",
+      "label": "New Window",
+      "action": {
+        "menu": [
+          "Window",
+          "New Window"
+        ]
+      }
+    },
+    {
+      "keys": "WA",
+      "label": "Arrange All",
+      "action": {
+        "menu": [
+          "Window",
+          "Arrange..."
+        ]
+      }
+    },
+    {
+      "keys": "WFF",
+      "label": "Freeze Panes",
+      "action": {
+        "menu": [
+          "Window",
+          "Freeze Panes|Unfreeze Panes"
+        ]
+      }
+    },
+    {
+      "keys": "WFR",
+      "label": "Freeze Top Row",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\ntell active window\nset freeze panes to false\nset split column to 0\nset split row to 1\nset freeze panes to true\nend tell\nend tell"
+      }
+    },
+    {
+      "keys": "WFC",
+      "label": "Freeze First Column",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\ntell active window\nset freeze panes to false\nset split row to 0\nset split column to 1\nset freeze panes to true\nend tell\nend tell"
+      }
+    },
+    {
+      "keys": "WS",
+      "label": "Split",
+      "action": {
+        "menu": [
+          "Window",
+          "Split"
+        ]
+      }
+    },
+    {
+      "keys": "WH",
+      "label": "Hide Window",
+      "action": {
+        "menu": [
+          "Window",
+          "Hide"
+        ]
+      }
+    },
+    {
+      "keys": "WU",
+      "label": "Unhide Window",
+      "action": {
+        "menu": [
+          "Window",
+          "Unhide..."
+        ]
+      }
+    },
+    {
+      "keys": "WB",
+      "label": "View Side by Side",
+      "action": {
+        "ribbon": {
+          "tab": "View",
+          "control": "View Side by Side"
+        }
+      }
+    },
+    {
+      "keys": "WT",
+      "label": "Reset Window Position",
+      "action": {
+        "ribbon": {
+          "tab": "View",
+          "control": "Reset Window Position"
+        }
+      }
+    },
+    {
+      "keys": "WW",
+      "label": "Switch Windows",
+      "action": {
+        "ribbon": {
+          "tab": "View",
+          "control": "Switch Windows"
+        }
+      }
+    },
+    {
+      "keys": "WMV",
+      "label": "View Macros",
+      "action": {
+        "menu": [
+          "Tools",
+          "Macro",
+          "Macros..."
+        ]
+      }
+    },
+    {
+      "keys": "WMR",
+      "label": "Record Macro",
+      "action": {
+        "menu": [
+          "Tools",
+          "Macro",
+          "Record New Macro..."
+        ]
+      }
+    },
+    {
+      "keys": "FN",
+      "label": "New",
+      "action": {
+        "shortcut": "cmd+n"
+      }
+    },
+    {
+      "keys": "FO",
+      "label": "Open",
+      "action": {
+        "shortcut": "cmd+o"
+      }
+    },
+    {
+      "keys": "FS",
+      "label": "Save",
+      "action": {
+        "shortcut": "cmd+s"
+      }
+    },
+    {
+      "keys": "FA",
+      "label": "Save As",
+      "action": {
+        "shortcut": "cmd+shift+s"
+      }
+    },
+    {
+      "keys": "FP",
+      "label": "Print",
+      "action": {
+        "shortcut": "cmd+p"
+      }
+    },
+    {
+      "keys": "FC",
+      "label": "Close",
+      "action": {
+        "shortcut": "cmd+w"
+      }
+    },
+    {
+      "keys": "FT",
+      "label": "Options / Preferences",
+      "action": {
+        "shortcut": "cmd+,"
+      }
+    },
+    {
+      "keys": "FZ",
+      "label": "Share",
+      "action": {
+        "menu": [
+          "File",
+          "Share",
+          "Share..."
+        ]
+      }
+    }
+  ]
+}

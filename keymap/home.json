@@ -1,0 +1,1131 @@
+{
+  "groups": {
+    "F": "File",
+    "H": "Home",
+    "N": "Insert",
+    "P": "Page Layout",
+    "M": "Formulas",
+    "A": "Data",
+    "R": "Review",
+    "W": "View",
+    "HV": "Paste",
+    "HF": "Font / Fill / Find",
+    "H3": "Underline",
+    "HB": "Borders",
+    "HA": "Alignment / Accounting",
+    "HM": "Merge & Center",
+    "HFQ": "Orientation",
+    "HI": "Insert",
+    "HD": "Delete",
+    "HO": "Format",
+    "HOU": "Hide & Unhide",
+    "HU": "AutoSum",
+    "HFI": "Fill",
+    "HE": "Clear",
+    "HS": "Sort & Filter",
+    "HFD": "Find & Select"
+  },
+  "bindings": [
+    {
+      "keys": "HX",
+      "label": "Cut",
+      "action": {
+        "shortcut": "cmd+X"
+      }
+    },
+    {
+      "keys": "HC",
+      "label": "Copy",
+      "action": {
+        "shortcut": "cmd+C"
+      }
+    },
+    {
+      "keys": "HFP",
+      "label": "Format Painter",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Format"
+        }
+      }
+    },
+    {
+      "keys": "HVP",
+      "label": "Paste",
+      "action": {
+        "shortcut": "cmd+V"
+      }
+    },
+    {
+      "keys": "HVF",
+      "label": "Paste Formulas",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to paste special selection what paste formulas"
+      }
+    },
+    {
+      "keys": "HVO",
+      "label": "Paste Formulas & Number Formatting",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to paste special selection what paste formulas and number formats"
+      }
+    },
+    {
+      "keys": "HVK",
+      "label": "Paste Keep Source Formatting",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to paste special selection what paste all using source theme"
+      }
+    },
+    {
+      "keys": "HVB",
+      "label": "Paste No Borders",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to paste special selection what paste all except borders"
+      }
+    },
+    {
+      "keys": "HVW",
+      "label": "Paste Keep Source Column Widths",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to paste special selection what paste column widths"
+      }
+    },
+    {
+      "keys": "HVT",
+      "label": "Paste Transpose",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to paste special selection what paste all transpose true"
+      }
+    },
+    {
+      "keys": "HVV",
+      "label": "Paste Values",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to paste special selection what paste values"
+      }
+    },
+    {
+      "keys": "HVA",
+      "label": "Paste Values & Number Formatting",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to paste special selection what paste values and number formats"
+      }
+    },
+    {
+      "keys": "HVE",
+      "label": "Paste Values & Source Formatting",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\npaste special selection what paste formats\npaste special selection what paste values\nend tell"
+      }
+    },
+    {
+      "keys": "HVR",
+      "label": "Paste Formatting",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to paste special selection what paste formats"
+      }
+    },
+    {
+      "keys": "HVN",
+      "label": "Paste Link",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to paste special on worksheet active sheet with link"
+      }
+    },
+    {
+      "keys": "HVS",
+      "label": "Paste Special...",
+      "action": {
+        "shortcut": "cmd+ctrl+V"
+      }
+    },
+    {
+      "keys": "HFF",
+      "label": "Font",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Font:"
+        }
+      }
+    },
+    {
+      "keys": "HFS",
+      "label": "Font Size",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Font Size:"
+        }
+      }
+    },
+    {
+      "keys": "HFG",
+      "label": "Increase Font Size",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Increase Font Size"
+        }
+      }
+    },
+    {
+      "keys": "HFK",
+      "label": "Decrease Font Size",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Decrease Font Size"
+        }
+      }
+    },
+    {
+      "keys": "H1",
+      "label": "Bold",
+      "action": {
+        "shortcut": "cmd+B"
+      }
+    },
+    {
+      "keys": "H2",
+      "label": "Italic",
+      "action": {
+        "shortcut": "cmd+I"
+      }
+    },
+    {
+      "keys": "H3U",
+      "label": "Underline",
+      "action": {
+        "shortcut": "cmd+U"
+      }
+    },
+    {
+      "keys": "H3D",
+      "label": "Double Underline",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set underline of font object of selection to underline style double"
+      }
+    },
+    {
+      "keys": "HBO",
+      "label": "Bottom Border",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nset b to get border selection which border edge bottom\nset line style of b to continuous\nset weight of b to border weight thin\nend tell"
+      }
+    },
+    {
+      "keys": "HBP",
+      "label": "Top Border",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nset b to get border selection which border edge top\nset line style of b to continuous\nset weight of b to border weight thin\nend tell"
+      }
+    },
+    {
+      "keys": "HBL",
+      "label": "Left Border",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nset b to get border selection which border edge left\nset line style of b to continuous\nset weight of b to border weight thin\nend tell"
+      }
+    },
+    {
+      "keys": "HBR",
+      "label": "Right Border",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nset b to get border selection which border edge right\nset line style of b to continuous\nset weight of b to border weight thin\nend tell"
+      }
+    },
+    {
+      "keys": "HBN",
+      "label": "No Border",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nrepeat with e in {edge left, edge right, edge top, edge bottom, inside vertical, inside horizontal, diagonal down, diagonal up}\ntry\nset line style of (get border selection which border e) to line style none\nend try\nend repeat\nend tell"
+      }
+    },
+    {
+      "keys": "HBA",
+      "label": "All Borders",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nrepeat with e in {edge left, edge right, edge top, edge bottom, inside vertical, inside horizontal}\ntry\nset b to get border selection which border e\nset line style of b to continuous\nset weight of b to border weight thin\nend try\nend repeat\nend tell"
+      }
+    },
+    {
+      "keys": "HBS",
+      "label": "Outside Borders",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nrepeat with e in {edge left, edge right, edge top, edge bottom}\nset b to get border selection which border e\nset line style of b to continuous\nset weight of b to border weight thin\nend repeat\nend tell"
+      }
+    },
+    {
+      "keys": "HBT",
+      "label": "Thick Outside Borders",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nrepeat with e in {edge left, edge right, edge top, edge bottom}\nset b to get border selection which border e\nset line style of b to continuous\nset weight of b to border weight thick\nend repeat\nend tell"
+      }
+    },
+    {
+      "keys": "HBB",
+      "label": "Bottom Double Border",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nset b to get border selection which border edge bottom\nset line style of b to double\nend tell"
+      }
+    },
+    {
+      "keys": "HBH",
+      "label": "Thick Bottom Border",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nset b to get border selection which border edge bottom\nset line style of b to continuous\nset weight of b to border weight thick\nend tell"
+      }
+    },
+    {
+      "keys": "HBD",
+      "label": "Top and Bottom Border",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nrepeat with e in {edge top, edge bottom}\nset b to get border selection which border e\nset line style of b to continuous\nset weight of b to border weight thin\nend repeat\nend tell"
+      }
+    },
+    {
+      "keys": "HBC",
+      "label": "Top and Thick Bottom Border",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nset bt to get border selection which border edge top\nset line style of bt to continuous\nset weight of bt to border weight thin\nset bb to get border selection which border edge bottom\nset line style of bb to continuous\nset weight of bb to border weight thick\nend tell"
+      }
+    },
+    {
+      "keys": "HBU",
+      "label": "Top and Double Bottom Border",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nset bt to get border selection which border edge top\nset line style of bt to continuous\nset weight of bt to border weight thin\nset bb to get border selection which border edge bottom\nset line style of bb to double\nend tell"
+      }
+    },
+    {
+      "keys": "HBM",
+      "label": "More Borders...",
+      "action": {
+        "shortcut": "cmd+1"
+      }
+    },
+    {
+      "keys": "HH",
+      "label": "Fill Color",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Shading"
+        }
+      }
+    },
+    {
+      "keys": "HFC",
+      "label": "Font Color",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Font Colour"
+        }
+      }
+    },
+    {
+      "keys": "HAT",
+      "label": "Top Align",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set vertical alignment of selection to vertical alignment top"
+      }
+    },
+    {
+      "keys": "HAM",
+      "label": "Middle Align",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set vertical alignment of selection to vertical alignment center"
+      }
+    },
+    {
+      "keys": "HAB",
+      "label": "Bottom Align",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set vertical alignment of selection to vertical alignment bottom"
+      }
+    },
+    {
+      "keys": "HAL",
+      "label": "Align Left",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set horizontal alignment of selection to horizontal align left"
+      }
+    },
+    {
+      "keys": "HAC",
+      "label": "Center",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set horizontal alignment of selection to horizontal align center"
+      }
+    },
+    {
+      "keys": "HAR",
+      "label": "Align Right",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set horizontal alignment of selection to horizontal align right"
+      }
+    },
+    {
+      "keys": "HW",
+      "label": "Wrap Text",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nif wrap text of selection is true then\nset wrap text of selection to false\nelse\nset wrap text of selection to true\nend if\nend tell"
+      }
+    },
+    {
+      "keys": "H5",
+      "label": "Decrease Indent",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nif indent level of selection > 0 then set indent level of selection to (indent level of selection) - 1\nend tell"
+      }
+    },
+    {
+      "keys": "H6",
+      "label": "Increase Indent",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nif indent level of selection < 15 then set indent level of selection to (indent level of selection) + 1\nend tell"
+      }
+    },
+    {
+      "keys": "HMC",
+      "label": "Merge & Center",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nmerge selection\nset horizontal alignment of selection to horizontal align center\nend tell"
+      }
+    },
+    {
+      "keys": "HMA",
+      "label": "Merge Across",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to merge selection with across"
+      }
+    },
+    {
+      "keys": "HMM",
+      "label": "Merge Cells",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to merge selection"
+      }
+    },
+    {
+      "keys": "HMU",
+      "label": "Unmerge Cells",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to unmerge selection"
+      }
+    },
+    {
+      "keys": "HFQO",
+      "label": "Angle Counterclockwise",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set text orientation of selection to 45"
+      }
+    },
+    {
+      "keys": "HFQL",
+      "label": "Angle Clockwise",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set text orientation of selection to -45"
+      }
+    },
+    {
+      "keys": "HFQV",
+      "label": "Vertical Text",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set text orientation of selection to orientation vertical"
+      }
+    },
+    {
+      "keys": "HFQU",
+      "label": "Rotate Text Up",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set text orientation of selection to 90"
+      }
+    },
+    {
+      "keys": "HFQD",
+      "label": "Rotate Text Down",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set text orientation of selection to -90"
+      }
+    },
+    {
+      "keys": "HFQM",
+      "label": "Format Cell Alignment",
+      "action": {
+        "shortcut": "cmd+1"
+      }
+    },
+    {
+      "keys": "HN",
+      "label": "Number Format",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Number Format"
+        }
+      }
+    },
+    {
+      "keys": "HAN",
+      "label": "Accounting Number Format",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Accounting Number Format"
+        }
+      }
+    },
+    {
+      "keys": "HP",
+      "label": "Percent Style",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set number format of selection to \"0%\""
+      }
+    },
+    {
+      "keys": "HK",
+      "label": "Comma Style",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to set style object of selection to style \"Comma\" of active workbook"
+      }
+    },
+    {
+      "keys": "H0",
+      "label": "Increase Decimal",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Increase Decimal"
+        }
+      }
+    },
+    {
+      "keys": "H9",
+      "label": "Decrease Decimal",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Decrease Decimal"
+        }
+      }
+    },
+    {
+      "keys": "HFM",
+      "label": "More Number Formats...",
+      "action": {
+        "shortcut": "cmd+1"
+      }
+    },
+    {
+      "keys": "HL",
+      "label": "Conditional Formatting",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Conditional Formatting"
+        }
+      }
+    },
+    {
+      "keys": "HT",
+      "label": "Format as Table",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Format as Table"
+        }
+      }
+    },
+    {
+      "keys": "HJ",
+      "label": "Cell Styles",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Cell Styles"
+        }
+      }
+    },
+    {
+      "keys": "HII",
+      "label": "Insert Cells...",
+      "action": {
+        "menu": [
+          "Insert",
+          "Cells..."
+        ]
+      }
+    },
+    {
+      "keys": "HIR",
+      "label": "Insert Sheet Rows",
+      "action": {
+        "menu": [
+          "Insert",
+          "Rows"
+        ]
+      }
+    },
+    {
+      "keys": "HIC",
+      "label": "Insert Sheet Columns",
+      "action": {
+        "menu": [
+          "Insert",
+          "Columns"
+        ]
+      }
+    },
+    {
+      "keys": "HIS",
+      "label": "Insert Sheet",
+      "action": {
+        "menu": [
+          "Insert",
+          "Sheet",
+          "Insert Sheet"
+        ]
+      }
+    },
+    {
+      "keys": "HDD",
+      "label": "Delete Cells...",
+      "action": {
+        "menu": [
+          "Edit",
+          "Delete..."
+        ]
+      }
+    },
+    {
+      "keys": "HDR",
+      "label": "Delete Sheet Rows",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to delete range entire row of selection"
+      }
+    },
+    {
+      "keys": "HDC",
+      "label": "Delete Sheet Columns",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to delete range entire column of selection"
+      }
+    },
+    {
+      "keys": "HDS",
+      "label": "Delete Sheet",
+      "action": {
+        "menu": [
+          "Edit",
+          "Sheet",
+          "Delete Sheet"
+        ]
+      }
+    },
+    {
+      "keys": "HOH",
+      "label": "Row Height...",
+      "action": {
+        "menu": [
+          "Format",
+          "Row",
+          "Height..."
+        ]
+      }
+    },
+    {
+      "keys": "HOA",
+      "label": "AutoFit Row Height",
+      "action": {
+        "menu": [
+          "Format",
+          "Row",
+          "Auto-fit"
+        ]
+      }
+    },
+    {
+      "keys": "HOW",
+      "label": "Column Width...",
+      "action": {
+        "menu": [
+          "Format",
+          "Column",
+          "Width..."
+        ]
+      }
+    },
+    {
+      "keys": "HOI",
+      "label": "AutoFit Column Width",
+      "action": {
+        "menu": [
+          "Format",
+          "Column",
+          "Auto-fit Selection"
+        ]
+      }
+    },
+    {
+      "keys": "HOD",
+      "label": "Default Width...",
+      "action": {
+        "menu": [
+          "Format",
+          "Column",
+          "Standard Width..."
+        ]
+      }
+    },
+    {
+      "keys": "HOUR",
+      "label": "Hide Rows",
+      "action": {
+        "menu": [
+          "Format",
+          "Row",
+          "Hide"
+        ]
+      }
+    },
+    {
+      "keys": "HOUC",
+      "label": "Hide Columns",
+      "action": {
+        "menu": [
+          "Format",
+          "Column",
+          "Hide"
+        ]
+      }
+    },
+    {
+      "keys": "HOUS",
+      "label": "Hide Sheet",
+      "action": {
+        "menu": [
+          "Format",
+          "Sheet",
+          "Hide"
+        ]
+      }
+    },
+    {
+      "keys": "HOUO",
+      "label": "Unhide Rows",
+      "action": {
+        "menu": [
+          "Format",
+          "Row",
+          "Unhide"
+        ]
+      }
+    },
+    {
+      "keys": "HOUL",
+      "label": "Unhide Columns",
+      "action": {
+        "menu": [
+          "Format",
+          "Column",
+          "Unhide"
+        ]
+      }
+    },
+    {
+      "keys": "HOUH",
+      "label": "Unhide Sheet...",
+      "action": {
+        "menu": [
+          "Format",
+          "Sheet",
+          "Unhide..."
+        ]
+      }
+    },
+    {
+      "keys": "HOR",
+      "label": "Rename Sheet",
+      "action": {
+        "menu": [
+          "Format",
+          "Sheet",
+          "Rename"
+        ]
+      }
+    },
+    {
+      "keys": "HOM",
+      "label": "Move or Copy Sheet...",
+      "action": {
+        "menu": [
+          "Edit",
+          "Sheet",
+          "Move or Copy Sheet..."
+        ]
+      }
+    },
+    {
+      "keys": "HOT",
+      "label": "Tab Color",
+      "action": {
+        "ribbon": {
+          "tab": "Home",
+          "control": "Format",
+          "item": "Tab Colour"
+        }
+      }
+    },
+    {
+      "keys": "HOP",
+      "label": "Protect Sheet...",
+      "action": {
+        "menu": [
+          "Tools",
+          "Protection",
+          "Protect Sheet..."
+        ]
+      }
+    },
+    {
+      "keys": "HOL",
+      "label": "Lock Cell",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\"\nif locked of selection is true then\nset locked of selection to false\nelse\nset locked of selection to true\nend if\nend tell"
+      }
+    },
+    {
+      "keys": "HOE",
+      "label": "Format Cells...",
+      "action": {
+        "shortcut": "cmd+1"
+      }
+    },
+    {
+      "keys": "HUS",
+      "label": "AutoSum",
+      "action": {
+        "shortcut": "cmd+shift+T"
+      }
+    },
+    {
+      "keys": "HUA",
+      "label": "Average",
+      "action": {
+        "ribbon": {
+          "tab": "Formulas",
+          "control": "Auto-sum",
+          "item": "Average"
+        }
+      }
+    },
+    {
+      "keys": "HUC",
+      "label": "Count Numbers",
+      "action": {
+        "ribbon": {
+          "tab": "Formulas",
+          "control": "Auto-sum",
+          "item": "Count Numbers"
+        }
+      }
+    },
+    {
+      "keys": "HUM",
+      "label": "Max",
+      "action": {
+        "ribbon": {
+          "tab": "Formulas",
+          "control": "Auto-sum",
+          "item": "Max"
+        }
+      }
+    },
+    {
+      "keys": "HUI",
+      "label": "Min",
+      "action": {
+        "ribbon": {
+          "tab": "Formulas",
+          "control": "Auto-sum",
+          "item": "Min"
+        }
+      }
+    },
+    {
+      "keys": "HUF",
+      "label": "More Functions...",
+      "action": {
+        "menu": [
+          "Insert",
+          "Function..."
+        ]
+      }
+    },
+    {
+      "keys": "HFID",
+      "label": "Fill Down",
+      "action": {
+        "shortcut": "cmd+D"
+      }
+    },
+    {
+      "keys": "HFIR",
+      "label": "Fill Right",
+      "action": {
+        "shortcut": "cmd+R"
+      }
+    },
+    {
+      "keys": "HFIU",
+      "label": "Fill Up",
+      "action": {
+        "menu": [
+          "Edit",
+          "Fill",
+          "Up"
+        ]
+      }
+    },
+    {
+      "keys": "HFIL",
+      "label": "Fill Left",
+      "action": {
+        "menu": [
+          "Edit",
+          "Fill",
+          "Left"
+        ]
+      }
+    },
+    {
+      "keys": "HFIA",
+      "label": "Fill Across Worksheets...",
+      "action": {
+        "menu": [
+          "Edit",
+          "Fill",
+          "Across Worksheets..."
+        ]
+      }
+    },
+    {
+      "keys": "HFIS",
+      "label": "Fill Series...",
+      "action": {
+        "menu": [
+          "Edit",
+          "Fill",
+          "Series..."
+        ]
+      }
+    },
+    {
+      "keys": "HFIJ",
+      "label": "Fill Justify",
+      "action": {
+        "menu": [
+          "Edit",
+          "Fill",
+          "Justify"
+        ]
+      }
+    },
+    {
+      "keys": "HFIE",
+      "label": "Flash Fill",
+      "action": {
+        "menu": [
+          "Edit",
+          "Fill",
+          "Flash-fill"
+        ]
+      }
+    },
+    {
+      "keys": "HEA",
+      "label": "Clear All",
+      "action": {
+        "menu": [
+          "Edit",
+          "Clear",
+          "All"
+        ]
+      }
+    },
+    {
+      "keys": "HEF",
+      "label": "Clear Formats",
+      "action": {
+        "menu": [
+          "Edit",
+          "Clear",
+          "Formats"
+        ]
+      }
+    },
+    {
+      "keys": "HEC",
+      "label": "Clear Contents",
+      "action": {
+        "menu": [
+          "Edit",
+          "Clear",
+          "Contents"
+        ]
+      }
+    },
+    {
+      "keys": "HEM",
+      "label": "Clear Comments and Notes",
+      "action": {
+        "menu": [
+          "Edit",
+          "Clear",
+          "Clear Comments and Notes"
+        ]
+      }
+    },
+    {
+      "keys": "HEL",
+      "label": "Clear Hyperlinks",
+      "action": {
+        "menu": [
+          "Edit",
+          "Clear",
+          "Links"
+        ]
+      }
+    },
+    {
+      "keys": "HER",
+      "label": "Remove Hyperlinks",
+      "action": {
+        "menu": [
+          "Edit",
+          "Clear",
+          "Links"
+        ]
+      }
+    },
+    {
+      "keys": "HSS",
+      "label": "Sort A to Z",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to sort selection key1 active cell order1 sort ascending header header guess"
+      }
+    },
+    {
+      "keys": "HSO",
+      "label": "Sort Z to A",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to sort selection key1 active cell order1 sort descending header header guess"
+      }
+    },
+    {
+      "keys": "HSU",
+      "label": "Custom Sort...",
+      "action": {
+        "shortcut": "cmd+shift+R"
+      }
+    },
+    {
+      "keys": "HSF",
+      "label": "Filter",
+      "action": {
+        "menu": [
+          "Data",
+          "Auto-filter"
+        ]
+      }
+    },
+    {
+      "keys": "HSC",
+      "label": "Clear Filter",
+      "action": {
+        "menu": [
+          "Data",
+          "Clear Filters"
+        ]
+      }
+    },
+    {
+      "keys": "HSY",
+      "label": "Reapply Filter",
+      "action": {
+        "ribbon": {
+          "tab": "Data",
+          "control": "Reapply"
+        }
+      }
+    },
+    {
+      "keys": "HFDF",
+      "label": "Find...",
+      "action": {
+        "shortcut": "cmd+F"
+      }
+    },
+    {
+      "keys": "HFDR",
+      "label": "Replace...",
+      "action": {
+        "shortcut": "ctrl+H"
+      }
+    },
+    {
+      "keys": "HFDG",
+      "label": "Go To...",
+      "action": {
+        "shortcut": "ctrl+G"
+      }
+    },
+    {
+      "keys": "HFDU",
+      "label": "Select Formulas",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to select (special cells used range of active sheet type cell type formulas)"
+      }
+    },
+    {
+      "keys": "HFDN",
+      "label": "Select Constants",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to select (special cells used range of active sheet type cell type constants)"
+      }
+    },
+    {
+      "keys": "HFDM",
+      "label": "Select Comments",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to select (special cells used range of active sheet type cell type comments)"
+      }
+    },
+    {
+      "keys": "HFDO",
+      "label": "Select Conditional Formatting",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to select (special cells used range of active sheet type cell type all format conditions)"
+      }
+    },
+    {
+      "keys": "HFDV",
+      "label": "Select Data Validation",
+      "action": {
+        "applescript": "tell application \"Microsoft Excel\" to select (special cells used range of active sheet type cell type all validation)"
+      }
+    },
+    {
+      "keys": "HFDP",
+      "label": "Selection Pane",
+      "action": {
+        "shortcut": "cmd+opt+U"
+      }
+    }
+  ]
+}

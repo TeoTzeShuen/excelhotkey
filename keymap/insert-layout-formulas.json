@@ -1,0 +1,465 @@
+{
+  "groups": {
+    "N": "Insert",
+    "NV": "PivotTable",
+    "NP": "Pictures",
+    "NS": "Insert (Shapes / Charts / Sparklines / Filters)",
+    "NC": "Column Chart / Comment",
+    "NN": "Line Chart",
+    "NH": "Hierarchy Chart / Header & Footer",
+    "NI": "Waterfall Chart / Link",
+    "NM": "Map Chart",
+    "P": "Page Layout",
+    "PT": "Themes",
+    "PM": "Margins",
+    "PO": "Orientation",
+    "PS": "Page Setup / Size / Scale",
+    "PR": "Print Area",
+    "PB": "Breaks",
+    "PV": "Sheet Options (View)",
+    "PP": "Sheet Options (Print)",
+    "M": "Formulas",
+    "MU": "AutoSum",
+    "MM": "Define Name",
+    "MA": "Remove Arrows",
+    "MK": "Error Checking",
+    "MX": "Calculation Options"
+  },
+  "bindings": [
+    {
+      "keys": "NVT",
+      "label": "PivotTable (From Table/Range)",
+      "action": { "menu": ["Data", "Summarise with Pivot Table"] }
+    },
+    {
+      "keys": "NSP",
+      "label": "Recommended PivotTables",
+      "action": { "ribbon": { "tab": "Insert", "control": "Recommended Pivot Tables" } }
+    },
+    {
+      "keys": "NT",
+      "label": "Table",
+      "action": { "menu": ["Insert", "Table"] }
+    },
+    {
+      "keys": "NPD",
+      "label": "Picture from This Device",
+      "action": { "menu": ["Insert", "Picture", "Place over Cells", "Picture from File ..."] }
+    },
+    {
+      "keys": "NPS",
+      "label": "Picture from Stock Images",
+      "action": { "menu": ["Insert", "Picture", "Place over Cells", "Stock Images..."] }
+    },
+    {
+      "keys": "NPO",
+      "label": "Picture from Online Pictures",
+      "action": { "menu": ["Insert", "Picture", "Place over Cells", "Online Pictures..."] }
+    },
+    {
+      "keys": "NSH",
+      "label": "Shapes",
+      "action": { "ribbon": { "tab": "Insert", "control": "Shapes" } }
+    },
+    {
+      "keys": "NSC",
+      "label": "Screenshot",
+      "action": { "ribbon": { "tab": "Insert", "control": "Screenshot" } }
+    },
+    {
+      "keys": "NR",
+      "label": "Recommended Charts",
+      "action": { "ribbon": { "tab": "Insert", "control": "Recommended Charts" } }
+    },
+    {
+      "keys": "NC1",
+      "label": "Column or Bar Chart",
+      "action": { "menu": ["Insert", "Chart", "Column"] }
+    },
+    {
+      "keys": "NN1",
+      "label": "Line or Area Chart",
+      "action": { "menu": ["Insert", "Chart", "Line"] }
+    },
+    {
+      "keys": "NQ",
+      "label": "Pie or Doughnut Chart",
+      "action": { "menu": ["Insert", "Chart", "Pie"] }
+    },
+    {
+      "keys": "NHI",
+      "label": "Hierarchy Chart",
+      "action": { "ribbon": { "tab": "Insert", "control": "Hierarchy" } }
+    },
+    {
+      "keys": "NSA",
+      "label": "Statistic Chart",
+      "action": { "ribbon": { "tab": "Insert", "control": "Statistical" } }
+    },
+    {
+      "keys": "ND",
+      "label": "Scatter (X, Y) or Bubble Chart",
+      "action": { "menu": ["Insert", "Chart", "X Y (Scatter)"] }
+    },
+    {
+      "keys": "NI1",
+      "label": "Waterfall, Funnel, Stock, Surface, or Radar Chart",
+      "action": { "menu": ["Insert", "Chart", "Waterfall"] }
+    },
+    {
+      "keys": "NSD",
+      "label": "Combo Chart",
+      "action": { "ribbon": { "tab": "Insert", "control": "Combo" } }
+    },
+    {
+      "keys": "NM2",
+      "label": "Map Chart",
+      "action": { "menu": ["Insert", "Chart", "Filled Map"] }
+    },
+    {
+      "keys": "NSL",
+      "label": "Line Sparkline",
+      "action": { "menu": ["Insert", "Sparklines..."] }
+    },
+    {
+      "keys": "NSO",
+      "label": "Column Sparkline",
+      "action": { "menu": ["Insert", "Sparklines..."] }
+    },
+    {
+      "keys": "NSW",
+      "label": "Win/Loss Sparkline",
+      "action": { "menu": ["Insert", "Sparklines..."] }
+    },
+    {
+      "keys": "NSF",
+      "label": "Slicer",
+      "action": { "ribbon": { "tab": "Insert", "control": "Slicer" } }
+    },
+    {
+      "keys": "NST",
+      "label": "Timeline",
+      "action": { "ribbon": { "tab": "Insert", "control": "Timeline" } }
+    },
+    {
+      "keys": "NI2",
+      "label": "Insert Link",
+      "action": { "shortcut": "cmd+k" }
+    },
+    {
+      "keys": "NC2",
+      "label": "New Comment",
+      "action": { "menu": ["Insert", "New Comment"] }
+    },
+    {
+      "keys": "NX",
+      "label": "Text Box",
+      "action": { "menu": ["Insert", "Text Box"] }
+    },
+    {
+      "keys": "NH1",
+      "label": "Header & Footer",
+      "action": { "menu": ["View", "Header and Footer..."] }
+    },
+    {
+      "keys": "NW",
+      "label": "WordArt",
+      "action": { "menu": ["Insert", "WordArt"] }
+    },
+    {
+      "keys": "NJ",
+      "label": "Object",
+      "action": { "menu": ["Insert", "Object..."] }
+    },
+    {
+      "keys": "NE",
+      "label": "Equation",
+      "action": { "ribbon": { "tab": "Insert", "control": "Equation" } }
+    },
+    {
+      "keys": "NU",
+      "label": "Symbol",
+      "action": { "menu": ["Insert", "Symbol..."] }
+    },
+    {
+      "keys": "PTH",
+      "label": "Themes",
+      "action": { "ribbon": { "tab": "Page Layout", "control": "Themes" } }
+    },
+    {
+      "keys": "PTC",
+      "label": "Theme Colors",
+      "action": { "ribbon": { "tab": "Page Layout", "control": "Colours" } }
+    },
+    {
+      "keys": "PTF",
+      "label": "Theme Fonts",
+      "action": { "ribbon": { "tab": "Page Layout", "control": "Fonts" } }
+    },
+    {
+      "keys": "PMA",
+      "label": "Custom Margins",
+      "action": { "menu": ["File", "Page Setup..."] }
+    },
+    {
+      "keys": "POP",
+      "label": "Orientation: Portrait",
+      "action": { "applescript": "tell application \"Microsoft Excel\" to set page orientation of page setup object of active sheet to portrait" }
+    },
+    {
+      "keys": "POL",
+      "label": "Orientation: Landscape",
+      "action": { "applescript": "tell application \"Microsoft Excel\" to set page orientation of page setup object of active sheet to landscape" }
+    },
+    {
+      "keys": "PSZ",
+      "label": "Page Size",
+      "action": { "ribbon": { "tab": "Page Layout", "control": "Size" } }
+    },
+    {
+      "keys": "PSP",
+      "label": "Page Setup",
+      "action": { "menu": ["File", "Page Setup..."] }
+    },
+    {
+      "keys": "PSC",
+      "label": "Scale",
+      "action": { "menu": ["File", "Page Setup..."] }
+    },
+    {
+      "keys": "PRS",
+      "label": "Set Print Area",
+      "action": { "menu": ["File", "Print Area", "Set Print Area"] }
+    },
+    {
+      "keys": "PRC",
+      "label": "Clear Print Area",
+      "action": { "menu": ["File", "Print Area", "Clear Print Area"] }
+    },
+    {
+      "keys": "PBI",
+      "label": "Insert Page Break",
+      "action": { "menu": ["Insert", "Page Break"] }
+    },
+    {
+      "keys": "PBR",
+      "label": "Remove Page Break",
+      "action": { "applescript": "tell application \"Microsoft Excel\"\n\tset page break of entire row of active cell to page break none\n\tset page break of entire column of active cell to page break none\nend tell" }
+    },
+    {
+      "keys": "PBA",
+      "label": "Reset All Page Breaks",
+      "action": { "menu": ["Insert", "Reset All Page Breaks"] }
+    },
+    {
+      "keys": "PG",
+      "label": "Background",
+      "action": { "menu": ["Format", "Sheet", "Background..."] }
+    },
+    {
+      "keys": "PI",
+      "label": "Print Titles",
+      "action": { "ribbon": { "tab": "Page Layout", "control": "Print Titles" } }
+    },
+    {
+      "keys": "PW",
+      "label": "Scale to Fit: Width",
+      "action": { "ribbon": { "tab": "Page Layout", "control": "Width:" } }
+    },
+    {
+      "keys": "PH",
+      "label": "Scale to Fit: Height",
+      "action": { "ribbon": { "tab": "Page Layout", "control": "Height:" } }
+    },
+    {
+      "keys": "PVG",
+      "label": "View Gridlines",
+      "action": { "applescript": "tell application \"Microsoft Excel\" to set display gridlines of active window to not (display gridlines of active window)" }
+    },
+    {
+      "keys": "PPG",
+      "label": "Print Gridlines",
+      "action": { "applescript": "tell application \"Microsoft Excel\" to set print gridlines of page setup object of active sheet to not (print gridlines of page setup object of active sheet)" }
+    },
+    {
+      "keys": "PVH",
+      "label": "View Headings",
+      "action": { "applescript": "tell application \"Microsoft Excel\" to set display headings of active window to not (display headings of active window)" }
+    },
+    {
+      "keys": "PPH",
+      "label": "Print Headings",
+      "action": { "applescript": "tell application \"Microsoft Excel\" to set print headings of page setup object of active sheet to not (print headings of page setup object of active sheet)" }
+    },
+    {
+      "keys": "MF",
+      "label": "Insert Function",
+      "action": { "menu": ["Insert", "Function..."] }
+    },
+    {
+      "keys": "MUS",
+      "label": "AutoSum: Sum",
+      "action": { "shortcut": "cmd+shift+t" }
+    },
+    {
+      "keys": "MUA",
+      "label": "AutoSum: Average",
+      "action": { "ribbon": { "tab": "Formulas", "control": "Auto-sum", "item": "Average" } }
+    },
+    {
+      "keys": "MUC",
+      "label": "AutoSum: Count Numbers",
+      "action": { "ribbon": { "tab": "Formulas", "control": "Auto-sum", "item": "Count Numbers" } }
+    },
+    {
+      "keys": "MUM",
+      "label": "AutoSum: Max",
+      "action": { "ribbon": { "tab": "Formulas", "control": "Auto-sum", "item": "Max" } }
+    },
+    {
+      "keys": "MUI",
+      "label": "AutoSum: Min",
+      "action": { "ribbon": { "tab": "Formulas", "control": "Auto-sum", "item": "Min" } }
+    },
+    {
+      "keys": "MUF",
+      "label": "AutoSum: More Functions",
+      "action": { "menu": ["Insert", "Function..."] }
+    },
+    {
+      "keys": "MR",
+      "label": "Recently Used Functions",
+      "action": { "ribbon": { "tab": "Formulas", "control": "Recently Used" } }
+    },
+    {
+      "keys": "MI",
+      "label": "Financial Functions",
+      "action": { "ribbon": { "tab": "Formulas", "control": "Financial" } }
+    },
+    {
+      "keys": "ML",
+      "label": "Logical Functions",
+      "action": { "ribbon": { "tab": "Formulas", "control": "Logical" } }
+    },
+    {
+      "keys": "MT",
+      "label": "Text Functions",
+      "action": { "ribbon": { "tab": "Formulas", "control": "Text" } }
+    },
+    {
+      "keys": "ME",
+      "label": "Date & Time Functions",
+      "action": { "ribbon": { "tab": "Formulas", "control": "Date & Time" } }
+    },
+    {
+      "keys": "MO",
+      "label": "Lookup & Reference Functions",
+      "action": { "ribbon": { "tab": "Formulas", "control": "Lookup & Reference" } }
+    },
+    {
+      "keys": "MG",
+      "label": "Math & Trig Functions",
+      "action": { "ribbon": { "tab": "Formulas", "control": "Maths & Trig" } }
+    },
+    {
+      "keys": "MQ",
+      "label": "More Functions",
+      "action": { "ribbon": { "tab": "Formulas", "control": "More Functions" } }
+    },
+    {
+      "keys": "MN",
+      "label": "Name Manager",
+      "action": { "menu": ["Insert", "Name", "Name Manager"] }
+    },
+    {
+      "keys": "MMD",
+      "label": "Define Name",
+      "action": { "menu": ["Insert", "Name", "Define Name"] }
+    },
+    {
+      "keys": "MMA",
+      "label": "Apply Names",
+      "action": { "menu": ["Insert", "Name", "Apply..."] }
+    },
+    {
+      "keys": "MS",
+      "label": "Use in Formula",
+      "action": { "menu": ["Insert", "Name", "Paste..."] }
+    },
+    {
+      "keys": "MC",
+      "label": "Create from Selection",
+      "action": { "menu": ["Insert", "Name", "Create..."] }
+    },
+    {
+      "keys": "MP",
+      "label": "Trace Precedents",
+      "action": { "menu": ["Tools", "Auditing", "Trace Precedents"] }
+    },
+    {
+      "keys": "MD",
+      "label": "Trace Dependents",
+      "action": { "menu": ["Tools", "Auditing", "Trace Dependents"] }
+    },
+    {
+      "keys": "MAA",
+      "label": "Remove Arrows",
+      "action": { "menu": ["Tools", "Auditing", "Remove All Arrows"] }
+    },
+    {
+      "keys": "MAP",
+      "label": "Remove Precedent Arrows",
+      "action": { "applescript": "tell application \"Microsoft Excel\" to show precedents active cell with remove" }
+    },
+    {
+      "keys": "MAD",
+      "label": "Remove Dependent Arrows",
+      "action": { "applescript": "tell application \"Microsoft Excel\" to show dependents active cell with remove" }
+    },
+    {
+      "keys": "MH",
+      "label": "Show Formulas",
+      "action": { "applescript": "tell application \"Microsoft Excel\" to set display formulas of active window to not (display formulas of active window)" }
+    },
+    {
+      "keys": "MKK",
+      "label": "Error Checking",
+      "action": { "menu": ["Tools", "Error-checking..."] }
+    },
+    {
+      "keys": "MKE",
+      "label": "Trace Error",
+      "action": { "menu": ["Tools", "Auditing", "Trace Error"] }
+    },
+    {
+      "keys": "MW",
+      "label": "Watch Window",
+      "action": { "ribbon": { "tab": "Formulas", "control": "Watch Window" } }
+    },
+    {
+      "keys": "MXA",
+      "label": "Calculation Options: Automatic",
+      "action": { "applescript": "tell application \"Microsoft Excel\" to set calculation to calculation automatic" }
+    },
+    {
+      "keys": "MXE",
+      "label": "Calculation Options: Automatic Except for Data Tables",
+      "action": { "applescript": "tell application \"Microsoft Excel\" to set calculation to calculation semiautomatic" }
+    },
+    {
+      "keys": "MXM",
+      "label": "Calculation Options: Manual",
+      "action": { "applescript": "tell application \"Microsoft Excel\" to set calculation to calculation manual" }
+    },
+    {
+      "keys": "MB",
+      "label": "Calculate Now",
+      "action": { "applescript": "tell application \"Microsoft Excel\" to calculate" }
+    },
+    {
+      "keys": "MJ",
+      "label": "Calculate Sheet",
+      "action": { "applescript": "tell application \"Microsoft Excel\" to calculate active sheet" }
+    }
+  ]
+}
